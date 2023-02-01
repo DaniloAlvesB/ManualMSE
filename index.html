@@ -21,7 +21,7 @@
 
     <div id="mobile_content" class="container"></div>
     <div id="content" class="container bg-light d-flex flex-wrap p-3">
-        <div id="nav-1" class="col-12 col-sm-4 rounded h300 border border-dark">
+        <div id="nav-1" class="col-12 col-md-4 rounded h300 border border-dark" style="overflow-x: hidden; overflow-y: scroll; max-height: 80vh; min-height: 80vh">
             <div class="bg-secondary">
                 <button type="button" class="btn btn-secondary" onclick="reload_pag()">
                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
@@ -84,11 +84,39 @@
                     </div>
                 </p>
 
+
+                <!-- MATRÍCULA DE ALUNO -->
+                <p class="m-0">
+                    <div class="fs-2 m-0">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-right-fill" viewBox="0 0 16 16">
+                            <path d="m12.14 8.753-5.482 4.796c-.646.566-1.658.106-1.658-.753V3.204a1 1 0 0 1 1.659-.753l5.48 4.796a1 1 0 0 1 0 1.506z"></path>
+                        </svg>
+                        <a class="title-menual fs-5" data-bs-toggle="collapse" href="#c_novamatricula" role="button" aria-expanded="false" aria-controls="c_novamatricula">
+                            Matrícula do aluno
+                        </a>
+                    </div>
+                </p>
+                <div class="row">
+                <div class="col">
+                    <div id="c_novamatricula" class="collapse multi-collapse" style="margin-left: 2rem;">
+                        <button class="card container-fluid p-2 text-center subtitle-manual" onclick="render_text_txt('Sobre a matrícula')">
+                            Sobre a matrícula
+                        </button>
+                        <button class="card container-fluid p-2 text-center subtitle-manual" onclick="render_text_txt('Criando matrícula do aluno')">
+                            Criando matrícula do aluno
+                        </button>
+                        <button class="card container-fluid p-2 text-center subtitle-manual" onclick="render_text_txt('Inserindo horário na matrícula')">
+                            Inserindo horário na matrícula
+                        </button>
+                    </div>
+                </div>
+                </div>
+
             </div>
 
         </div>
 
-        <div id="text_content" class="col-12 col-sm-8 rounded h300 p-2">
+        <div id="text_content" class="col-12 col-sm-8 rounded h300 p-2" style="overflow-x: hidden; overflow-y: scroll; max-height: 80vh">
             
             <h3 class="m-2">Olá!</h3>
             <hr>
