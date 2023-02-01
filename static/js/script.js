@@ -1,9 +1,46 @@
+function detectar_mobile() { 
+    if( navigator.userAgent.match(/Android/i)
+    || navigator.userAgent.match(/webOS/i)
+    || navigator.userAgent.match(/iPhone/i)
+    || navigator.userAgent.match(/iPad/i)
+    || navigator.userAgent.match(/iPod/i)
+    || navigator.userAgent.match(/BlackBerry/i)
+    ){
+       return true;
+     }
+    else {
+       return false;
+     }
+   }
+
+let celular = detectar_mobile();
+
+if(celular == true){
+    text_content.innerHTML = "";
+    mobile_content.innerHTML = `
+        <h3 class="m-2">Olá!</h3>
+        <hr>
+        <p class="mx-2">
+            Neste manual você irá aprender a como realizar diversas funções que o nosso
+            SISTEMA ESCOLA e o PORTAL DO ALUNO oferecem.
+            Aprenderá também como proceder no seu primeiro acesso, o que é cada local de acesso,
+            suas principais funcionalidades e recursos.<br>
+            Espero que a nossa parceria seja de muito sucesso!
+        </p>
+    `;
+}
+
 function render_text(id){
 
     for(var i = 0; i < textos.length; i++){
         if(i == id){
-            text_content.innerHTML = textos[i][0]
-            text_content.innerHTML += textos[i][1]
+            if(celular == false){
+                text_content.innerHTML = textos[i][0]
+                text_content.innerHTML += textos[i][1]
+            }else{
+                list_content.innerHTML = textos[i][0]
+                list_content.innerHTML += textos[i][1]
+            }
             break;
         }
     }
