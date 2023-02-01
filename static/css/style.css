@@ -1,0 +1,41 @@
+.line-light{
+    border-top: 1px solid rgb(85, 85, 85);
+}
+
+.h300{
+    min-height: 300px;
+}
+
+.title-menual{
+    background-color: transparent;
+    color: rgb(41, 41, 41);
+    transition: 0.5s;
+}
+
+.title-menual:hover{
+    color: rgb(62, 117, 168);
+}
+
+.subtitle-manual{
+    background-color: transparent;
+    color: rgb(41, 41, 41);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.subtitle-manual:hover{
+    background-color: rgb(240, 240, 240);
+    color: rgb(31, 175, 180);
+}
+
+#nav-1{
+    background-color: rgba(0, 0, 0, 0.062);
+}
+
+.img-exp{
+    transition: transform 0.5s;
+}
+
+.img-exp:hover{
+    transform: scale(1.045);
+}
