@@ -1,5 +1,5 @@
 var textos = [
-    [`<h4 class="m-2">Sistema Escola - Primeiro acesso</h4><hr>`, `
+    [`Sistema Escola - Primeiro acesso`, `
         <p class="mx-2">
             O sistema escola é o sistema de gerenciamento para a sua escola. Nele você conseguirá
             ter controle sobre todos os seus alunos, combos, cursos, além de poder incluir todo o
@@ -18,12 +18,13 @@ var textos = [
             tipos de permissões, mas veremos isso mais a frente.
         </p>
     `, `
-        Primeiro Acesso    
-    `
+        Primeiro Acesso, Sistema Escola, Abrir
+    `,
+    `http://www.videostutoriais.grupooportunidade.com.br/suporte/videos/sistema/1.html`
     ],
 
 
-    [`<h4 class="m-2">Portal do Aluno - Primeiro acesso</h4><hr>`, `
+    [`Portal do Aluno - Primeiro acesso`, `
         <p class="mx-2">
             O Portal do Aluno é o local por onde o aluno realizará as suas aulas interativas. Dentro
             deste portal o aluno também poderá verificar a porcentagem de andamento do seu curso,
@@ -45,12 +46,13 @@ var textos = [
             ser feita de acordo com a realidade da sua unidade. 
         </p>
     `, `
-        Primeiro Acesso     
-    `
+        Primeiro Acesso, Portal do Aluno, Abrir
+    `,
+    "http://www.videostutoriais.grupooportunidade.com.br/suporte/videos/hardlock/2.html"
     ],
 
     
-    [`<h4 class="m-2">Abertura de caixa</h4><hr>`, `
+    [`Abertura de caixa`, `
         <p class="mx-2">
             A primeira tela que surge ao abrir o sistema pela primeira vez no dia, é a abertura de
             caixa. Essa tela permite que seja inserido o valor do caixa do dia anterior e a partir desse
@@ -67,12 +69,13 @@ var textos = [
             Se o caixa não for aberto, o sistema volta para a tela de inicial de Login. 
         </p>
     `, `
-        Abertura de caixa  
-    `
+        Abertura de caixa, Caixa, Abrir, Início, Inicio
+    `,
+    ""
     ],
 
 
-    [`<h4 class="m-2">Cadastro de Aluno</h4><hr>`, `
+    [`Cadastro de Aluno`, `
         <p class="mx-2">
             Dentro do sistema escola: <br>
             <b class="m-2">A.</b> Clique no menu MANUTENÇÃO e, após, clique em Alunos. <br>
@@ -96,7 +99,8 @@ var textos = [
             <b class="m-2">E.</b> Pronto, o cadastro do seu aluno foi efetuado com sucesso!
         </p>
     `, `
-        Abertura de caixa  
-    `
+        Novo aluno, Aluno, Cadastro
+    `,
+    "http://www.videostutoriais.grupooportunidade.com.br/suporte/videos/sistema/4.html"
     ],
 ]
