@@ -129,3 +129,8 @@ function pesquisar(){
     }
 
 }
+
+function img_open(link){
+    localStorage.setItem('image_a', link);
+    window.open("static/html/image.html", "minhaJanela", "popup");
+}

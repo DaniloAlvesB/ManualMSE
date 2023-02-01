@@ -8,7 +8,9 @@ var textos = [
             escolar à gestão empresarial em um único local.
 
             <br>
-            <img class="img-fluid my-2 img-exp" src="static/images/login_se.jpg" alt="Tela de Login Sistema Escola">
+            <a onclick="img_open('static/images/login_se.jpg')">
+                <img class="img-fluid my-2 img-exp" src="static/images/login_se.jpg" alt="Tela de Login Sistema Escola">
+            </a>
             <br>
 
             O primeiro acesso ao sistema escola é dado por um Login e senha enviados logo no

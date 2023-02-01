@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manual - Imagem</title>
+</head>
+<body style="background-color: black;">
+    
+    <div id="img_a"></div>
+
+</body>
+
+<script>
+    setTimeout(load_img, 500)
+
+    function load_img(){
+        img_a.innerHTML = `
+            <img src="/${localStorage.getItem("image_a")}" alt="">
+        `
+    }
+</script>
+
+</html>
