@@ -114,6 +114,9 @@ function pesquisar(){
 
     var text = document.getElementById("pesquisa_text").value;
 
+    list_content.innerHTML = "";
+    pesq_prep();
+
     for(var i = 0; i < textos.length; i++){
 
         if(textos[i][0].toLowerCase().includes(text.toLowerCase()) || textos[i][2].toLowerCase().includes(text.toLowerCase())){
